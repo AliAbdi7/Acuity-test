@@ -30,7 +30,7 @@ We expanded upon the original paper and base website by adding several robust ne
    - Implemented a pure Vector SVG Tumbling-E with `shape-rendering="crispEdges"` and Windows DPI awareness, guaranteeing zero pixel-blur even on 15.6" laptops with 150% display scaling.
 6. **Binocular Side-by-Side Results:**
    - Unified dashboard allowing seamless switching between testing the Left Eye and Right Eye, displaying both final result cards and distributions side-by-side.
-7. **Auto-Calibration for 15.6" Laptops:**
+7. **Auto-Calibration for Laptops:**
    - Automatically calculates exact physical pixel density based on the device's diagonal aspect ratio to size the credit card reference perfectly upon load.
 
 ---
@@ -46,17 +46,6 @@ python app_web.py
 ```bash
 python app_desktop.py
 ```
-
-3. **Run the Terminal Simulation Demo:**
-```bash
-python stat_algorithm.py
-```
-
-4. **Run the Calibrated Uncertainty Evaluation (Reproduces Figure 4c):**
-```bash
-python plot_calibration_curve.py
-```
-
 ---
 
 ## ⚖️ Attribution & Disclaimer
